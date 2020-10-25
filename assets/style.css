@@ -26,7 +26,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #f2e9e4
+    color: #f2e9e4;
     }
 }
 
@@ -51,6 +51,41 @@ header nav ul li a {
 }
 
 section {
-    padding: 60px;
+    padding: 100px;
 }
 
+.sections {
+    background-color: #c9ada7;
+}
+
+.hero {
+ 
+}
+
+/* contact section */
+
+.contact {
+    color: #4a4e69;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact h2 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+}
+
+.contact-info {
+    text-decoration: underline;
+}
+
+
+
+/* contact end */
+
+.text-right {
+    text-align: right;
+}
