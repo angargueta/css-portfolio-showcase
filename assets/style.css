@@ -56,36 +56,66 @@ section {
 
 .sections {
     background-color: #c9ada7;
-}
-
-.hero {
- 
-}
-
-/* contact section */
-
-.contact {
     color: #4a4e69;
+}
+
+.section-title {
+    color: #4a4e69;
+    font-weight: bold;
+    font-size: 36px;
+    border-right: solid 2px;
     padding: 20px 35px;
-    display: flex;
+    float: left;
+    padding: 20px 25px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.contact h2 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 36px;
+.primary-border {
+    border-left: 2px solid;
 }
+
+.hero {
+        background-image: url(/assets/images/hero.jpeg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+h3 {
+    display: flex;
+    
+}
+/* contact section */
+
 
 .contact-info {
     text-decoration: underline;
+    vertical-align: text-bottom;
 }
 
+.right-text{
+    float: right;
+    flex-wrap: wrap;
+}
 
 
 /* contact end */
 
-.text-right {
-    text-align: right;
+
+/* container grid */
+
+.grid-container {
+    display: grid;
+
 }
+
+.grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* container grid end */
