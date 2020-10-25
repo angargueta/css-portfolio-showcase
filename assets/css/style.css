@@ -98,7 +98,15 @@ section {
 
 
 
-.about
+.about, .work {
+    border-bottom: 1px solid;
+    flex-wrap: wrap;
+    padding: 0 10px 30px 10px;
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 
 /* contact section */
@@ -106,8 +114,11 @@ section {
 
 .contact-info {
     text-decoration: underline;
-    flex-wrap: right;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
 
 /* contact end */
