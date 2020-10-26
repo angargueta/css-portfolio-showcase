@@ -71,7 +71,6 @@ h2 {
 }
 
 
-
 section {
     padding: 100px;
 }
@@ -80,7 +79,6 @@ section {
     background-color: #c9ada7;
     color: #4a4e69;
 }
-
 
 .primary-border {
     border-left: 2px solid;
@@ -119,6 +117,7 @@ section {
     align-items: center;
     justify-content: space-evenly;
     font-size: 20px;
+    }
 }
 
 /* contact end */
@@ -135,3 +134,11 @@ section {
 }
 
 /* container grid end */
+
+
+.img {
+    background-color: #c9ada7;
+    margin: 0;
+    text-align: center;
+    padding: 5%;
+}
